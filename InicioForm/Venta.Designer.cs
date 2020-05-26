@@ -35,6 +35,7 @@
             this.CcharpButton = new System.Windows.Forms.RadioButton();
             this.BuyButton = new System.Windows.Forms.Button();
             this.ReturnButton = new System.Windows.Forms.Button();
+            this.OpenImagenButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // PaypalheckBox
@@ -98,6 +99,16 @@
             this.ReturnButton.Text = "Return";
             this.ReturnButton.UseVisualStyleBackColor = true;
             // 
+            // OpenImagenButton
+            // 
+            this.OpenImagenButton.Location = new System.Drawing.Point(215, 316);
+            this.OpenImagenButton.Name = "OpenImagenButton";
+            this.OpenImagenButton.Size = new System.Drawing.Size(163, 22);
+            this.OpenImagenButton.TabIndex = 6;
+            this.OpenImagenButton.Text = "Open Windows images";
+            this.OpenImagenButton.UseVisualStyleBackColor = true;
+            this.OpenImagenButton.Click += new System.EventHandler(this.OpenImagenButton_Click);
+            // 
             // VentaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,6 +116,7 @@
             this.BackgroundImage = global::InicioForm.Properties.Resources.bat_2_100;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(584, 361);
+            this.Controls.Add(this.OpenImagenButton);
             this.Controls.Add(this.ReturnButton);
             this.Controls.Add(this.BuyButton);
             this.Controls.Add(this.CcharpButton);
@@ -132,5 +144,6 @@
         private System.Windows.Forms.RadioButton CcharpButton;
         private System.Windows.Forms.Button BuyButton;
         private System.Windows.Forms.Button ReturnButton;
+        private System.Windows.Forms.Button OpenImagenButton;
     }
 }

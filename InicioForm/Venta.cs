@@ -41,12 +41,13 @@ namespace InicioForm
             {
                 MessageBox.Show("Compras con tarjeta"+$"c"+"tipo de programacion"+mensaje);
             }
-
-
-
-
-
         }
 
+        private void OpenImagenButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ImagenesForm form = new ImagenesForm();
+            form.Show();
+        }
     }
 }
