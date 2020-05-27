@@ -18,18 +18,9 @@ namespace InicioForm
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            try
-            {
-                SqlConnection con = new SqlConnection(" Data Source=.;Initial Catalog=Administracion;Integrated Security=True");
-         
-                con.Open();
+      
 
-                MessageBox.Show("Conection Satisfactria");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("error",ex.Message);
-            }
+
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
