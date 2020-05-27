@@ -22,8 +22,6 @@ namespace InicioForm
         private void LoginButton_Click(object sender, EventArgs e)
         {
             Connecion connecion = new Connecion();
-       
-
 
             try
             {
@@ -32,7 +30,6 @@ namespace InicioForm
 
                 string cuenta = Ds.Tables[0].Rows[0]["Account"].ToString().Trim();
                 string contra = Ds.Tables[0].Rows[0]["Password"].ToString().Trim();
-
 
                 if (cuenta == IdTextBox.Text.Trim() && contra == PasswordTextBox.Text.Trim())
                 {

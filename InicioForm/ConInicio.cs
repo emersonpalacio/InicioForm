@@ -8,10 +8,11 @@ using System.Threading.Tasks;
 
 namespace InicioForm
 {
-    public class Connecion
+    public class ConInicio
     {
 
-        public static DataSet Conections(string cmd)
+
+        public DataSet Conections(string cmd)
         {
 
             SqlConnection con = new SqlConnection(" Data Source=.;Initial Catalog=Administracion;Integrated Security=True");
