@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace InicioForm
@@ -17,19 +18,18 @@ namespace InicioForm
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-          
-
-            if (IdTextBox.Text == "emerson" && PasswordTextBox.Text =="123")
+            try
             {
-                this.Hide();
-                VentaForm form = new VentaForm();
-                form.Show();
-            }
-            else
-            {
-                MessageBox.Show("estas fuera ");
-            }
+                SqlConnection con = new SqlConnection(" Data Source=.;Initial Catalog=Administracion;Integrated Security=True");
+         
+                con.Open();
 
+                MessageBox.Show("Conection Satisfactria");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("error",ex.Message);
+            }
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
