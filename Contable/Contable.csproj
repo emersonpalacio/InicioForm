@@ -4,13 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{215583E3-C06E-4663-84FD-5CB1FC059F35}</ProjectGuid>
+    <ProjectGuid>{6BCBC7E4-AA9E-42A7-A79E-BA15CC552807}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>InicioForm</RootNamespace>
-    <AssemblyName>InicioForm</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>Contable</RootNamespace>
+    <AssemblyName>Contable</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -47,12 +46,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connecion.cs" />
-    <Compile Include="Imagenes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Imagenes.Designer.cs">
-      <DependentUpon>Imagenes.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,15 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Venta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Venta.Designer.cs">
-      <DependentUpon>Venta.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Imagenes.resx">
-      <DependentUpon>Imagenes.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,11 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Venta.resx">
-      <DependentUpon>Venta.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,39 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\atom.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\action_forward.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\action_forward1.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\action_back.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bat-2-100.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Contable\Contable.csproj">
-      <Project>{6bcbc7e4-aa9e-42a7-a79e-ba15cc552807}</Project>
-      <Name>Contable</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

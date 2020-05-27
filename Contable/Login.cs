@@ -1,8 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using MiConection;
+using InicioForm;
+
 
 namespace InicioForm
 {
@@ -13,18 +19,16 @@ namespace InicioForm
             InitializeComponent();
         }
 
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-            IdTextBox.Focus();
-        }
-
         private void LoginButton_Click(object sender, EventArgs e)
         {
+            Connecion connecion = new Connecion();
+       
+
 
             try
             {
                 string cmd = string.Format("select * from Usuarios where Account = '{0}' and  Password ='{1}' ", IdTextBox.Text.Trim(), PasswordTextBox.Text.Trim());
-                DataSet Ds = c(cmd);
+                DataSet Ds = connecion.Data(cmd);
 
                 string cuenta = Ds.Tables[0].Rows[0]["Account"].ToString().Trim();
                 string contra = Ds.Tables[0].Rows[0]["Password"].ToString().Trim();
@@ -32,20 +36,14 @@ namespace InicioForm
 
                 if (cuenta == IdTextBox.Text.Trim() && contra == PasswordTextBox.Text.Trim())
                 {
-                    MessageBox.Show("usairo correcto");
+                    MessageBox.Show("usuario correcto");
                 }
             }
             catch (Exception ex)
             {
 
-                MessageBox.Show("Error"+ex.Message);
+                MessageBox.Show("Error" + ex.Message);
             }
-
-        }
-
-        private void ExitButton_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
