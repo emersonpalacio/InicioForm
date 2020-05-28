@@ -14,6 +14,8 @@ namespace InicioForm
 {
     public partial class LoginForm : Form
     {
+
+        Connecion connecion = new Connecion();
         public LoginForm()
         {
             InitializeComponent();
@@ -21,7 +23,7 @@ namespace InicioForm
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            Connecion connecion = new Connecion();
+            
 
             try
             {
@@ -41,6 +43,11 @@ namespace InicioForm
 
                 MessageBox.Show("Error" + ex.Message);
             }
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

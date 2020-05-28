@@ -17,8 +17,8 @@ namespace InicioForm
             SqlConnection con = new SqlConnection(" Data Source =.;Initial Catalog = Administracion; Integrated Security = True");
             con.Open();
             DataSet DS = new DataSet();
-            SqlDataAdapter DP = new SqlDataAdapter(cmd, con);
-            DP.Fill(DS);
+            SqlDataAdapter DA = new SqlDataAdapter(cmd, con);
+            DA.Fill(DS);
             con.Close();
             return DS;
         }
