@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -82,7 +81,6 @@
             // 
             this.PasswordTextBox.Location = new System.Drawing.Point(138, 95);
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.PasswordChar = '*';
             this.PasswordTextBox.Size = new System.Drawing.Size(134, 20);
             this.PasswordTextBox.TabIndex = 1;
             // 
@@ -122,7 +120,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LoginButton);
             this.DoubleBuffered = true;
-        
             this.MaximumSize = new System.Drawing.Size(300, 5300);
             this.MinimumSize = new System.Drawing.Size(150, 150);
             this.Name = "LoginForm";
