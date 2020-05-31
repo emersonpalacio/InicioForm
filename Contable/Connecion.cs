@@ -10,12 +10,10 @@ namespace InicioForm
 {
     public class Connecion
     {
-
         public DataSet Data(string cmd)
         {
-
-            SqlConnection con = new SqlConnection(" Data Source =.;Initial Catalog = Administracion; Integrated Security = True");
-            con.Open();
+            SqlConnection con = new SqlConnection("Data Source =.;Initial Catalog = Administracion; Integrated Security = True");
+            con.Open(); 
             DataSet DS = new DataSet();
             SqlDataAdapter DA = new SqlDataAdapter(cmd, con);
             DA.Fill(DS);

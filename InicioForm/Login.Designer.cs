@@ -87,21 +87,21 @@
             // LoginButton
             // 
             this.LoginButton.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.LoginButton.Image = global::InicioForm.Properties.Resources.action_forward1;
             this.LoginButton.Location = new System.Drawing.Point(44, 164);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(77, 27);
             this.LoginButton.TabIndex = 2;
+            this.LoginButton.Text = "Entrar";
             this.LoginButton.UseVisualStyleBackColor = false;
             this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // ExitButton
             // 
-            this.ExitButton.Image = global::InicioForm.Properties.Resources.action_back;
             this.ExitButton.Location = new System.Drawing.Point(153, 164);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(75, 27);
             this.ExitButton.TabIndex = 2;
+            this.ExitButton.Text = "Salir";
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 

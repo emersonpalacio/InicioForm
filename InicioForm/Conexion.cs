@@ -10,7 +10,7 @@ namespace InicioForm
 {
     public class Conexion
     {
-        
+
         public DataSet Con(string cmd)
         {
             SqlConnection Conexion = new SqlConnection("Data Source=.;Initial Catalog=Administracion;Integrated Security=True");

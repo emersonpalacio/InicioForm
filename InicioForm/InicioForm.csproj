@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="Imagenes.cs">
       <SubType>Form</SubType>
@@ -61,12 +67,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Venta.cs">
+    <Compile Include="User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Venta.Designer.cs">
-      <DependentUpon>Venta.cs</DependentUpon>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Imagenes.resx">
       <DependentUpon>Imagenes.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,8 +92,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Venta.resx">
-      <DependentUpon>Venta.cs</DependentUpon>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
