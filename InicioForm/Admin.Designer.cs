@@ -120,6 +120,7 @@
             this.COntenedorPrincpalButton.TabIndex = 22;
             this.COntenedorPrincpalButton.Text = "Contenedor Principal";
             this.COntenedorPrincpalButton.UseVisualStyleBackColor = true;
+            this.COntenedorPrincpalButton.Click += new System.EventHandler(this.COntenedorPrincpalButton_Click);
             // 
             // label3
             // 

@@ -21,7 +21,7 @@ namespace InicioForm
   
         private void Admin_Load(object sender, EventArgs e)
         {
-            string login = "select * from Usuarios where Id_Usuario ="+ LoginForm.codigo;
+            string login = string.Format( "select * from Usuarios where Id_Usuario ="+ LoginForm.codigo);
             DataSet dt = conexion.Con(login);
 
             AdminLabel.Text = dt.Tables[0].Rows[0]["Nom_usu"].ToString().Trim();
@@ -34,6 +34,13 @@ namespace InicioForm
         private void SalirButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void COntenedorPrincpalButton_Click(object sender, EventArgs e)
+        {
+            ContenedorPrincipal contenedor = new ContenedorPrincipal();
+            this.Hide();
+            contenedor.Show();
         }
     }
 }

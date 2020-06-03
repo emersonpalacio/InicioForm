@@ -35,5 +35,12 @@ namespace Contable
 
 
         }
+
+        private void COntenedorPrincpalButton_Click(object sender, EventArgs e)
+        {
+            ContenedorPrincipal contenedor = new ContenedorPrincipal();
+            this.Hide();
+            contenedor.Show();
+        }
     }
 }

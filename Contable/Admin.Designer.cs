@@ -35,11 +35,11 @@
             this.AdminUsuariosButton = new System.Windows.Forms.Button();
             this.CambiarContraseñaButton = new System.Windows.Forms.Button();
             this.CerrarSesionButton = new System.Windows.Forms.Button();
-            this.SalirButton = new System.Windows.Forms.Button();
             this.AdminLabel = new System.Windows.Forms.Label();
             this.UserLabel = new System.Windows.Forms.Label();
             this.CodigoLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.SalirButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,6 +78,7 @@
             this.COntenedorPrincpalButton.TabIndex = 6;
             this.COntenedorPrincpalButton.Text = "Contenedor Principal";
             this.COntenedorPrincpalButton.UseVisualStyleBackColor = true;
+            this.COntenedorPrincpalButton.Click += new System.EventHandler(this.COntenedorPrincpalButton_Click);
             // 
             // AdminUsuariosButton
             // 
@@ -105,15 +106,6 @@
             this.CerrarSesionButton.TabIndex = 9;
             this.CerrarSesionButton.Text = "Cerrar sesión";
             this.CerrarSesionButton.UseVisualStyleBackColor = true;
-            // 
-            // SalirButton
-            // 
-            this.SalirButton.Location = new System.Drawing.Point(272, 255);
-            this.SalirButton.Name = "SalirButton";
-            this.SalirButton.Size = new System.Drawing.Size(151, 23);
-            this.SalirButton.TabIndex = 10;
-            this.SalirButton.Text = "Salir";
-            this.SalirButton.UseVisualStyleBackColor = true;
             // 
             // AdminLabel
             // 
@@ -146,6 +138,15 @@
             this.pictureBox1.Size = new System.Drawing.Size(197, 117);
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
+            // 
+            // SalirButton
+            // 
+            this.SalirButton.Location = new System.Drawing.Point(272, 255);
+            this.SalirButton.Name = "SalirButton";
+            this.SalirButton.Size = new System.Drawing.Size(151, 23);
+            this.SalirButton.TabIndex = 10;
+            this.SalirButton.Text = "Salir";
+            this.SalirButton.UseVisualStyleBackColor = true;
             // 
             // Admin
             // 
@@ -182,10 +183,10 @@
         private System.Windows.Forms.Button AdminUsuariosButton;
         private System.Windows.Forms.Button CambiarContraseñaButton;
         private System.Windows.Forms.Button CerrarSesionButton;
-        private System.Windows.Forms.Button SalirButton;
         private System.Windows.Forms.Label AdminLabel;
         private System.Windows.Forms.Label UserLabel;
         private System.Windows.Forms.Label CodigoLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button SalirButton;
     }
 }

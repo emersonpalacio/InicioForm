@@ -30,9 +30,16 @@ namespace Contable
             UserLabel.Text = ds.Tables[0].Rows[0]["Account"].ToString().Trim();
             CodigoLabel.Text = ds.Tables[0].Rows[0]["Id_Usuario"].ToString().Trim();
 
-            string url = ds.Tables[0].Rows[0]["Foto"].ToString();
+            string url = ds.Tables[0].Rows[0]["Foto"].ToString().Trim();
             pictureBox1.Image = Image.FromFile(url);
             
+        }
+
+        private void COntenedorPrincpalButton_Click(object sender, EventArgs e)
+        {
+            ContenedorPrincipal contenedor = new ContenedorPrincipal();
+            this.Hide();
+            contenedor.Show();
         }
     }
 }
