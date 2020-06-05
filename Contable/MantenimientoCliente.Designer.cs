@@ -95,6 +95,7 @@
             this.idCliTextBox.Name = "idCliTextBox";
             this.idCliTextBox.Size = new System.Drawing.Size(114, 20);
             this.idCliTextBox.TabIndex = 10;
+        
             // 
             // NomCliTextBox
             // 
@@ -118,6 +119,7 @@
             this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 13;
             this.label1.Text = "Id_cli";
+   
             // 
             // label2
             // 

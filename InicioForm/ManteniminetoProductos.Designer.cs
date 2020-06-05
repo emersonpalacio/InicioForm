@@ -1,6 +1,6 @@
 ﻿namespace InicioForm
 {
-    partial class Productos
+    partial class ManteniminetoProductos
     {
         /// <summary>
         /// Required designer variable.

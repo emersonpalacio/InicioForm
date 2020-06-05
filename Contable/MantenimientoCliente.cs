@@ -31,6 +31,7 @@ namespace Contable
 
         private void GuardarButton_Click(object sender, EventArgs e)
         {
+            
             try
             {
                 string data = string.Format("Exec  ActulizaClientes '{0}', '{1}' , '{2}' ", idCliTextBox.Text.Trim(), NomCliTextBox.Text.Trim(), ApeCliTextBox.Text.Trim());
@@ -50,7 +51,7 @@ namespace Contable
         {
             try
             {
-                string data = string.Format("exec eliminarArticulos '{0}' ", idCliTextBox.Text.Trim());
+                string data = string.Format("exec eliminarClientes '{0}' ", idCliTextBox.Text.Trim());
                 connecion.Data(data);
                 MessageBox.Show("se elimino satisfacion");
 
@@ -58,8 +59,9 @@ namespace Contable
             catch (Exception ex)
             {
 
-                MessageBox.Show("no se puedo eliminar");
+                MessageBox.Show("no se puedo eliminar",ex.Message);
             }
         }
+
     }
 }

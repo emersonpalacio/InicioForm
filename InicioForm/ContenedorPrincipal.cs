@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Contable;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -98,17 +99,42 @@ namespace InicioForm
 
         private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Clientes clientes = new Clientes();
+            MantenimientoCliente clientes = new MantenimientoCliente();
             clientes.MdiParent = this;
             clientes.Show();
-
         }
 
         private void productosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Productos productos = new Productos();
-            this.Hide();
-            productos.Show);
+            ManteniminetoProductos productos = new ManteniminetoProductos();
+            productos.MdiParent = this;          
+            productos.Show();
+        }
+
+        private void procesosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+          
+
+        }
+
+        private void consultasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultaClientes consultaClientes = new ConsultaClientes();
+            consultaClientes.MdiParent = this;
+            consultaClientes.Show();
+
+        }
+
+        private void consultaProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultarProductos consultarproductos = new ConsultarProductos();
+            consultarproductos.MdiParent = this;
+            consultarproductos.Show();
+        }
+
+        private void ContenedorPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

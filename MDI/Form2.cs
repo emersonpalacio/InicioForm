@@ -19,7 +19,15 @@ namespace MDI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Console.WriteLine();
+            if (textBox1.Text != string.Empty )
+            {
+                MessageBox.Show("estas dentro");
 
+            }else
+            {
+                MessageBox.Show("estas fuera");
+            }
         }
 
         private void TocarHover(object sender, EventArgs e)
@@ -31,6 +39,14 @@ namespace MDI
         private void SinTocarLive(object sender, EventArgs e)
         {
             pictureBox1.ImageLocation = ("C:/Users/emers/Desktop/image/ini.png");
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            if (true)
+            {
+
+            }
         }
     }
 }
