@@ -42,7 +42,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tempus Sans ITC", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(78, 9);
+            this.label1.Location = new System.Drawing.Point(64, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 42);
             this.label1.TabIndex = 1;
@@ -69,10 +69,11 @@
             this.label3.Size = new System.Drawing.Size(106, 21);
             this.label3.TabIndex = 3;
             this.label3.Text = "Password";
+          
             // 
             // IdTextBox
             // 
-            this.IdTextBox.Location = new System.Drawing.Point(138, 54);
+            this.IdTextBox.Location = new System.Drawing.Point(138, 55);
             this.IdTextBox.Name = "IdTextBox";
             this.IdTextBox.Size = new System.Drawing.Size(134, 20);
             this.IdTextBox.TabIndex = 0;
@@ -111,7 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(284, 223);
+            this.ClientSize = new System.Drawing.Size(284, 230);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.IdTextBox);

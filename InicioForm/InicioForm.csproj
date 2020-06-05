@@ -52,12 +52,6 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Clientes.Designer.cs">
-      <DependentUpon>Clientes.cs</DependentUpon>
-    </Compile>
     <Compile Include="ColsultasClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +64,12 @@
     </Compile>
     <Compile Include="ContenedorPrincipal.Designer.cs">
       <DependentUpon>ContenedorPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CosultaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CosultaProductos.Designer.cs">
+      <DependentUpon>CosultaProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="Imagenes.cs">
       <SubType>Form</SubType>
@@ -95,11 +95,11 @@
     <Compile Include="Procesos.Designer.cs">
       <DependentUpon>Procesos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Productos.cs">
+    <Compile Include="ManteniminetoProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Productos.Designer.cs">
-      <DependentUpon>Productos.cs</DependentUpon>
+    <Compile Include="ManteniminetoProductos.Designer.cs">
+      <DependentUpon>ManteniminetoProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,6 +118,9 @@
     <EmbeddedResource Include="ContenedorPrincipal.resx">
       <DependentUpon>ContenedorPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CosultaProductos.resx">
+      <DependentUpon>CosultaProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Imagenes.resx">
       <DependentUpon>Imagenes.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,8 +133,8 @@
     <EmbeddedResource Include="Procesos.resx">
       <DependentUpon>Procesos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Productos.resx">
-      <DependentUpon>Productos.cs</DependentUpon>
+    <EmbeddedResource Include="ManteniminetoProductos.resx">
+      <DependentUpon>ManteniminetoProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

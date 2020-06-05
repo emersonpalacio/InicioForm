@@ -21,13 +21,14 @@ namespace InicioForm
   
         private void Admin_Load(object sender, EventArgs e)
         {
-            string login = string.Format( "select * from Usuarios where Id_Usuario ="+ LoginForm.codigo);
+            
+            string login = string.Format("select * from Usuarios where Id_Usuario =" + LoginForm.codigo);
             DataSet dt = conexion.Con(login);
 
             AdminLabel.Text = dt.Tables[0].Rows[0]["Nom_usu"].ToString().Trim();
             UserLabel.Text = dt.Tables[0].Rows[0]["Account"].ToString().Trim();
+           
             CodigoLabel.Text = dt.Tables[0].Rows[0]["Id_Usuario"].ToString().Trim();
-
 
         }
 

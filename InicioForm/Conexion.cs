@@ -14,6 +14,7 @@ namespace InicioForm
         {
             SqlConnection Conexion = new SqlConnection("Data Source=.;Initial Catalog=Administracion;Integrated Security=True");
             Conexion.Open();//conexion
+
             DataSet DS = new DataSet(); // mitable 
 
             SqlDataAdapter DA = new SqlDataAdapter(cmd, Conexion);

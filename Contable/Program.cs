@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Contable;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,5 +19,7 @@ namespace InicioForm
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoginForm());
         }
+
+        
     }
 }
