@@ -138,5 +138,14 @@ namespace Contable
             productos.MdiParent = this;
             productos.Show();
         }
+
+    
+
+        private void procesosToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Procesos procesos = new Procesos();
+            procesos.MdiParent = this;
+            procesos.Show();
+        }
     }
 }

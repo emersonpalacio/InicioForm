@@ -75,10 +75,10 @@
             this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.procesosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colsultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colsultasPordcutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -458,17 +458,10 @@
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.procesosToolStripMenuItem1});
+            this.procesosToolStripMenuItem2});
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.procesosToolStripMenuItem.Text = "&ACtividades";
-            // 
-            // procesosToolStripMenuItem1
-            // 
-            this.procesosToolStripMenuItem1.Name = "procesosToolStripMenuItem1";
-            this.procesosToolStripMenuItem1.Size = new System.Drawing.Size(121, 22);
-            this.procesosToolStripMenuItem1.Text = "&Procesos";
-            this.procesosToolStripMenuItem1.Click += new System.EventHandler(this.procesosToolStripMenuItem1_Click);
             // 
             // consultasToolStripMenuItem
             // 
@@ -482,16 +475,23 @@
             // colsultasToolStripMenuItem
             // 
             this.colsultasToolStripMenuItem.Name = "colsultasToolStripMenuItem";
-            this.colsultasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colsultasToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.colsultasToolStripMenuItem.Text = "&Colsultas Clientes";
             this.colsultasToolStripMenuItem.Click += new System.EventHandler(this.colsultasToolStripMenuItem_Click);
             // 
             // colsultasPordcutosToolStripMenuItem
             // 
             this.colsultasPordcutosToolStripMenuItem.Name = "colsultasPordcutosToolStripMenuItem";
-            this.colsultasPordcutosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colsultasPordcutosToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.colsultasPordcutosToolStripMenuItem.Text = "C&olsultas Productos";
             this.colsultasPordcutosToolStripMenuItem.Click += new System.EventHandler(this.colsultasPordcutosToolStripMenuItem_Click);
+            // 
+            // procesosToolStripMenuItem2
+            // 
+            this.procesosToolStripMenuItem2.Name = "procesosToolStripMenuItem2";
+            this.procesosToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.procesosToolStripMenuItem2.Text = "&Procesos";
+            this.procesosToolStripMenuItem2.Click += new System.EventHandler(this.procesosToolStripMenuItem2_Click);
             // 
             // ContenedorPrincipal
             // 
@@ -505,7 +505,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "ContenedorPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ContenedorPrincipal";
+            this.Text = "ContenedorPrincipal";           
             this.toolStrip.ResumeLayout(false);
             this.toolStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
@@ -564,9 +564,9 @@
         private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colsultasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoProductoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colsultasPordcutosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem2;
     }
 }
 

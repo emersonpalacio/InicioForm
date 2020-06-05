@@ -46,6 +46,7 @@
             this.BuscarButton.TabIndex = 14;
             this.BuscarButton.Text = "Buscar";
             this.BuscarButton.UseVisualStyleBackColor = true;
+            this.BuscarButton.Click += new System.EventHandler(this.BuscarButton_Click);
             // 
             // NombreTextBox
             // 
@@ -99,7 +100,7 @@
             this.ImprimirButton.Text = "Imprimir";
             this.ImprimirButton.UseVisualStyleBackColor = true;
             // 
-            // ConsultarClientes
+            // ConsultarProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,7 +112,7 @@
             this.Controls.Add(this.SalirButton);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.ImprimirButton);
-            this.Name = "ConsultarClientes";
+            this.Name = "ConsultarProductos";
             this.Text = "ConsultarClientes";
             this.Load += new System.EventHandler(this.ConsultarClientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
