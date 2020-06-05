@@ -49,5 +49,10 @@ namespace Contable
         {
             dataGridView1.DataSource=  llenarDataGridView("Clientes").Tables[0];
         }
+
+        private void BuscarButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("");
+        }
     }
 }
