@@ -25,7 +25,8 @@ namespace InicioForm
         public static string codigo;
 
         private void LoginButton_Click(object sender, EventArgs e)
-        {   
+        {       
+
             try
             {
                 string cmd = string.Format("select * from Usuarios where Account = '{0}' and  Password ='{1}' ", IdTextBox.Text.Trim(), PasswordTextBox.Text.Trim());

@@ -23,7 +23,7 @@ namespace Contable
         {
             try
             {
-               string data= string.Format("Exec  ActulizaArticulos '{0}', '{1}' , '{2}' ", idProTextBox.Text.Trim(), NomProTextBox.Text.Trim(), PrecioTextBox.Text.Trim());
+                string data= string.Format("Exec  ActulizaArticulos '{0}', '{1}' , '{2}' ", idProTextBox.Text.Trim(), NomProTextBox.Text.Trim(), PrecioTextBox.Text.Trim());
                 connecion.Data(data);
                 MessageBox.Show("se guardo con satisfacion");                
 
@@ -48,7 +48,7 @@ namespace Contable
             catch (Exception ex)
             {
 
-                MessageBox.Show("no se puedo eliminar");
+                MessageBox.Show("no se puedo eliminar", ex.Message);
             }
 
         }
