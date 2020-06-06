@@ -27,6 +27,7 @@ namespace Contable
             DataSet ds = connecion.Data(cmd);
             LeAtiendeLabel.Text = ds.Tables[0].Rows[0]["Nom_usu"].ToString().Trim();
 
+
         }
     }
 }
