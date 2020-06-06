@@ -73,7 +73,6 @@ namespace Contable
                         existe = true;
                         NumFila = Fila.Index;
                     }
-
                 }
 
                 if (existe == true)
