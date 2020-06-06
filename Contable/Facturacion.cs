@@ -26,6 +26,7 @@ namespace Contable
             string cmd = string.Format("select * from Usuarios where Id_Usuario =" + LoginForm.codigo);
             DataSet ds = connecion.Data(cmd);
             LeAtiendeLabel.Text = ds.Tables[0].Rows[0]["Nom_usu"].ToString().Trim();
+
         }
     }
 }
