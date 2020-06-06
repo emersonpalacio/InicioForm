@@ -54,7 +54,7 @@ namespace Contable
         private void ColocarButton_Click(object sender, EventArgs e)
         {
 
-            bool existe = false;
+            bool existe = false ;
             int NumFila = 0;
 
             if (contadorFila == 0)
