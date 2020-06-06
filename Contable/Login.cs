@@ -32,7 +32,7 @@ namespace InicioForm
                 string cmd = string.Format("select * from Usuarios where Account = '{0}' and  Password ='{1}' ", IdTextBox.Text.Trim(), PasswordTextBox.Text.Trim());
                 DataSet Ds = connecion.Data(cmd);
 
-                codigo = Ds.Tables[0].Rows[0]["Id_Usuario"].ToString().Trim() ;
+                codigo = Ds.Tables[0].Rows[0]["Id_Usuario"].ToString().Trim();
 
                 string cuenta = Ds.Tables[0].Rows[0]["Account"].ToString().Trim();
                 string contra = Ds.Tables[0].Rows[0]["Password"].ToString().Trim();

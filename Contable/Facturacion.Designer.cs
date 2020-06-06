@@ -241,7 +241,7 @@
             this.LeAtiendeLabel.Name = "LeAtiendeLabel";
             this.LeAtiendeLabel.Size = new System.Drawing.Size(117, 23);
             this.LeAtiendeLabel.TabIndex = 28;
-            this.LeAtiendeLabel.Click += new System.EventHandler(this.LeAtiendeLabel_Click);
+  
             // 
             // ColCodigo
             // 

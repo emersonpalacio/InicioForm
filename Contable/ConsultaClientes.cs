@@ -54,13 +54,12 @@ namespace Contable
         private void BuscarButton_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(NombreTextBox.Text.Trim()) == false)
-            {
-         
+            {         
                 try
                 {
-                    DataSet ds;
-                    string buscar = string.Format(" select * from Clientes where Nom_Cli like ('%"+NombreTextBox.Text.Trim()+"%') ");
-                    ds = connecion.Data(buscar);
+                    
+                    string buscar = string.Format("select * from Clientes where Nom_Cli like ('%"+NombreTextBox.Text.Trim()+"%') ");
+                    DataSet ds = connecion.Data(buscar);
                     dataGridView1.DataSource = ds.Tables[0];
                 }
                 catch (Exception ex)

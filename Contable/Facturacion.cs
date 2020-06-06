@@ -28,10 +28,7 @@ namespace Contable
             LeAtiendeLabel.Text = ds.Tables[0].Rows[0]["Nom_usu"].ToString().Trim();
         }
 
-        private void LeAtiendeLabel_Click(object sender, EventArgs e)
-        {
-
-        }
+ 
 
         private void Buscarbutton_Click(object sender, EventArgs e)
         {
@@ -46,7 +43,6 @@ namespace Contable
                 }
                 catch (Exception ex)
                 {
-
                     MessageBox.Show("No existe",ex.Message);
                 }
             }
