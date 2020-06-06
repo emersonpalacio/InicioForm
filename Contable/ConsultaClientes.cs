@@ -69,5 +69,10 @@ namespace Contable
                 }
             }
         }
+
+        private void BuscarButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("");
+        }
     }
 }

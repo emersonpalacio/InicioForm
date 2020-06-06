@@ -36,12 +36,24 @@
             this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
+            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colsultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colsultasPordcutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+=======
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colsultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colsultasPordcutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.facturacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
+=======
+>>>>>>> 54a5178ea06ff622ba9f8051096de8387decd8b8
+            this.toolStrip.SuspendLayout();
+>>>>>>> 451151a682633dcf24cd77272162fe9481dc0112
             this.statusStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -97,6 +109,17 @@
             this.mantenimientoProductoToolStripMenuItem.Text = "&Mantenimiento Producto";
             this.mantenimientoProductoToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoProductoToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+            // procesosToolStripMenuItem
+            // 
+            this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.procesosToolStripMenuItem2});
+            this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
+            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.procesosToolStripMenuItem.Text = "&ACtividades";
+            // 
+=======
+>>>>>>> 54a5178ea06ff622ba9f8051096de8387decd8b8
             // consultasToolStripMenuItem
             // 
             this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -109,17 +132,25 @@
             // colsultasToolStripMenuItem
             // 
             this.colsultasToolStripMenuItem.Name = "colsultasToolStripMenuItem";
-            this.colsultasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colsultasToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.colsultasToolStripMenuItem.Text = "&Colsultas Clientes";
             this.colsultasToolStripMenuItem.Click += new System.EventHandler(this.colsultasToolStripMenuItem_Click);
             // 
             // colsultasPordcutosToolStripMenuItem
             // 
             this.colsultasPordcutosToolStripMenuItem.Name = "colsultasPordcutosToolStripMenuItem";
-            this.colsultasPordcutosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colsultasPordcutosToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.colsultasPordcutosToolStripMenuItem.Text = "C&olsultas Productos";
             this.colsultasPordcutosToolStripMenuItem.Click += new System.EventHandler(this.colsultasPordcutosToolStripMenuItem_Click);
             // 
+<<<<<<< HEAD
+            // procesosToolStripMenuItem2
+            // 
+            this.procesosToolStripMenuItem2.Name = "procesosToolStripMenuItem2";
+            this.procesosToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.procesosToolStripMenuItem2.Text = "&Procesos";
+            this.procesosToolStripMenuItem2.Click += new System.EventHandler(this.procesosToolStripMenuItem2_Click);
+=======
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -142,6 +173,7 @@
             this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.facturacionToolStripMenuItem.Text = "&Facturacion";
             this.facturacionToolStripMenuItem.Click += new System.EventHandler(this.facturacionToolStripMenuItem_Click);
+>>>>>>> 54a5178ea06ff622ba9f8051096de8387decd8b8
             // 
             // ContenedorPrincipal
             // 
@@ -154,8 +186,17 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "ContenedorPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+<<<<<<< HEAD
+            this.Text = "ContenedorPrincipal";           
+=======
             this.Text = "ContenedorPrincipal";
             this.Load += new System.EventHandler(this.ContenedorPrincipal_Load);
+<<<<<<< HEAD
+=======
+>>>>>>> 54a5178ea06ff622ba9f8051096de8387decd8b8
+            this.toolStrip.ResumeLayout(false);
+            this.toolStrip.PerformLayout();
+>>>>>>> 451151a682633dcf24cd77272162fe9481dc0112
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
             this.menuStrip.ResumeLayout(false);
@@ -174,10 +215,13 @@
         private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colsultasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoProductoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colsultasPordcutosToolStripMenuItem;
+<<<<<<< HEAD
+        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem2;
+=======
         private System.Windows.Forms.ToolStripMenuItem facturacionToolStripMenuItem;
+>>>>>>> 54a5178ea06ff622ba9f8051096de8387decd8b8
     }
 }
 

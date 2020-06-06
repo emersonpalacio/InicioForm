@@ -40,6 +40,7 @@ namespace Contable
 
         private void BuscarButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (string.IsNullOrEmpty(NombreTextBox.Text) == false)
             {
                 try
@@ -54,6 +55,9 @@ namespace Contable
                 }
 
             }
+=======
+
+>>>>>>> 451151a682633dcf24cd77272162fe9481dc0112
         }
     }
 }

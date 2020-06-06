@@ -139,6 +139,15 @@ namespace Contable
             productos.Show();
         }
 
+<<<<<<< HEAD
+    
+
+        private void procesosToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Procesos procesos = new Procesos();
+            procesos.MdiParent = this;
+            procesos.Show();
+=======
         private void ContenedorPrincipal_Load(object sender, EventArgs e)
         {
 
@@ -149,6 +158,7 @@ namespace Contable
             Facturacion facturacion = new Facturacion();
             facturacion.MdiParent = this;
             facturacion.Show();
+>>>>>>> 54a5178ea06ff622ba9f8051096de8387decd8b8
         }
     }
 }
