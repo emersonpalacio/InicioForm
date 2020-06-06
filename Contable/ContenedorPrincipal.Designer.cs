@@ -70,7 +70,7 @@
             this.helpToolStripButton});
             this.toolStrip.Location = new System.Drawing.Point(0, 24);
             this.toolStrip.Name = "toolStrip";
-            this.toolStrip.Size = new System.Drawing.Size(632, 25);
+            this.toolStrip.Size = new System.Drawing.Size(784, 25);
             this.toolStrip.TabIndex = 1;
             this.toolStrip.Text = "ToolStrip";
             // 
@@ -144,9 +144,9 @@
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 431);
+            this.statusStrip.Location = new System.Drawing.Point(0, 439);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(632, 22);
+            this.statusStrip.Size = new System.Drawing.Size(784, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -164,7 +164,7 @@
             this.procesosToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(632, 24);
+            this.menuStrip.Size = new System.Drawing.Size(784, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -203,14 +203,14 @@
             // colsultasToolStripMenuItem
             // 
             this.colsultasToolStripMenuItem.Name = "colsultasToolStripMenuItem";
-            this.colsultasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colsultasToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.colsultasToolStripMenuItem.Text = "&Colsultas Clientes";
             this.colsultasToolStripMenuItem.Click += new System.EventHandler(this.colsultasToolStripMenuItem_Click);
             // 
             // colsultasPordcutosToolStripMenuItem
             // 
             this.colsultasPordcutosToolStripMenuItem.Name = "colsultasPordcutosToolStripMenuItem";
-            this.colsultasPordcutosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colsultasPordcutosToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.colsultasPordcutosToolStripMenuItem.Text = "C&olsultas Productos";
             this.colsultasPordcutosToolStripMenuItem.Click += new System.EventHandler(this.colsultasPordcutosToolStripMenuItem_Click);
             // 
@@ -226,14 +226,14 @@
             // procesosToolStripMenuItem1
             // 
             this.procesosToolStripMenuItem1.Name = "procesosToolStripMenuItem1";
-            this.procesosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.procesosToolStripMenuItem1.Size = new System.Drawing.Size(136, 22);
             this.procesosToolStripMenuItem1.Text = "&Procesos";
             this.procesosToolStripMenuItem1.Click += new System.EventHandler(this.procesosToolStripMenuItem1_Click);
             // 
             // facturacionToolStripMenuItem
             // 
             this.facturacionToolStripMenuItem.Name = "facturacionToolStripMenuItem";
-            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.facturacionToolStripMenuItem.Text = "&Facturacion";
             this.facturacionToolStripMenuItem.Click += new System.EventHandler(this.facturacionToolStripMenuItem_Click);
             // 
@@ -241,7 +241,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 453);
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.menuStrip);
