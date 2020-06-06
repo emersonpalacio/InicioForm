@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contable", "Contable\Contable.csproj", "{6BCBC7E4-AA9E-42A7-A79E-BA15CC552807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contable2", "Contable2\Contable2.csproj", "{C9A96C60-D415-4D06-8437-E395DEB5029D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,26 @@ Global
 		{6BCBC7E4-AA9E-42A7-A79E-BA15CC552807}.Release|x64.Build.0 = Release|Any CPU
 		{6BCBC7E4-AA9E-42A7-A79E-BA15CC552807}.Release|x86.ActiveCfg = Release|Any CPU
 		{6BCBC7E4-AA9E-42A7-A79E-BA15CC552807}.Release|x86.Build.0 = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|x64.Build.0 = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Debug|x86.Build.0 = Debug|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|ARM.Build.0 = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|ARM64.Build.0 = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|x64.ActiveCfg = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|x64.Build.0 = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|x86.ActiveCfg = Release|Any CPU
+		{C9A96C60-D415-4D06-8437-E395DEB5029D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
